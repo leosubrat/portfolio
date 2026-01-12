@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "/hero.jpg";
+// import heroImage from "/hero.jpg";
 import { motion } from "framer-motion";
 import { SlideRight } from "../../utility/animation";
 import { SlideUp } from "../../utility/animation";
@@ -47,14 +47,14 @@ const Hero = () => {
               className="rounded-full border-2 image-border flex justify-center items-center p-6
                   w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px]"
             >
-              <motion.img
+              {/* <motion.img
                 src={heroImage}
                 alt="My Personal Photo"
                 className="w-full h-full rounded-full object-cover drop-shadow-lg"
                 variants={SlideUp(0.4)}
                 initial="hidden"
                 animate="visible"
-              />
+              /> */}
             </div>
           </div>
         </div>

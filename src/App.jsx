@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <div className="overflow-x-hidden">
-        <h1>Hello</h1>
         <Navbar />
         <Hero />
         <Projects />
