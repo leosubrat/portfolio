@@ -8,10 +8,10 @@ import { SlideUp } from "../utility/animation";
 const Hero = () => {
   return (
     <>
-      <section className="bg-gray-100 mt-auto py-10 md:px-10 md:py-0">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px] gap-6 md:gap-0">
+      <section className="bg-gray-100 mt-auto py-6 md:px-6 md:py-0">
+        <div className="max-w-7xl py-1 mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
           {/* My Information */}
-          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left py-5 md:py-0">
+          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left md:py-0">
             <motion.p
               variants={SlideRight(0.7)}
               initial="hidden"
@@ -50,7 +50,10 @@ const Hero = () => {
               <motion.img
                 src={heroImage}
                 alt="My Personal Photo"
-                className="w-full h-full rounded-full object-cover drop-shadow-lg"
+                className="
+                  w-full h-full rounded-full object-cover drop-shadow-lg
+                  transition-all duration-500 ease-in-out
+                "
                 variants={SlideUp(0.4)}
                 initial="hidden"
                 animate="visible"
