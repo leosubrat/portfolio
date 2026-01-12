@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./App.css";
+
+:root {
+  --color-primary: #6a00f4;
+  --color-secondary: #9d57f8;
+  --image-border: #e2d0fb;
+}
+
+@layer utilities {
+  .primary {
+    color: var(--color-primary);
+  }
+  .secondary {
+    color: var(--color-secondary);
+  }
+  .hamburger-hover:hover {
+    color: var(--color-primary);
+  }
+  .image-border {
+    border-color: var(--image-border);
+  }
+  .drop-shadow {
+    filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
+  }
+}
