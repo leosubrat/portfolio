@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SlideRight } from "../../utility/animation";
+import { SlideRight } from "../utility/animation";
 const Skills = () => {
   const skillsList = [
     {
