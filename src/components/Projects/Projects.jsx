@@ -1,7 +1,7 @@
-import Project1 from "../../assets/project1.avif";
-import Project2 from "../../assets/project2.avif";
-import Project3 from "../../assets/project3.avif";
-import Project4 from "../../assets/project4.avif";
+import Project1 from "/project1.avif";
+import Project2 from "/project2.avif";
+import Project3 from "/project3.avif";
+import Project4 from "/project4.avif";
 
 export default function Projects() {
   const projects = [

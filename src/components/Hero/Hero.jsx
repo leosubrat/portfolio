@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../assets/hero.jpg";
+import heroImage from "@/assets/hero.jpg";
 import { motion } from "framer-motion";
 import { SlideRight } from "../../utility/animation";
 import { SlideUp } from "../../utility/animation";
