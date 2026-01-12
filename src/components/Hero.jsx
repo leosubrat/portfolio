@@ -8,7 +8,7 @@ import { SlideUp } from "../utility/animation";
 const Hero = () => {
   return (
     <>
-      <section className="bg-gray-100 py-16 md:px-10 md:py-0">
+      <section className="bg-gray-100 mt-auto py-10 md:px-10 md:py-0">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
           {/* My Personal Information */}
           <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left py-10 md:py-0">
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="flex justify-center items-center mx-auto my-auto">
             <div
               className="rounded-full border-2 image-border flex justify-center items-center p-6
-                  w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px]"
+              w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px]"
             >
               <motion.img
                 src={heroImage}
