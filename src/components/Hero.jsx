@@ -50,10 +50,7 @@ const Hero = () => {
               <motion.img
                 src={heroImage}
                 alt="My Personal Photo"
-                className="
-                  w-full h-full rounded-full object-cover drop-shadow-lg
-                  transition-all duration-500 ease-in-out
-                "
+                className="w-full h-full rounded-full object-cover drop-shadow-lg"
                 variants={SlideUp(0.4)}
                 initial="hidden"
                 animate="visible"
