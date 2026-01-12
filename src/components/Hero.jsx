@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <>
       <section className="bg-gray-100 mt-auto py-10 md:px-10 md:py-0">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
-          {/* My Personal Information */}
-          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left py-10 md:py-0">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px] gap-6 md:gap-0">
+          {/* My Information */}
+          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left py-5 md:py-0">
             <motion.p
               variants={SlideRight(0.7)}
               initial="hidden"
