@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SlideRight } from "../utility/animation";
+import { SlideRight } from "../../../utility/animation";
 const Skills = () => {
   const skillsList = [
     {
@@ -41,7 +41,7 @@ const Skills = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-12">
             Skills<span className="primary">.</span>
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {skillsList.map((skill) => (
               <div key={skill.id}>
                 <motion.h2

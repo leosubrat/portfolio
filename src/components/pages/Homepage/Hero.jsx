@@ -1,9 +1,9 @@
 import React from "react";
 import heroImage from "/hero.JPG";
 import { motion } from "framer-motion";
-import { SlideRight } from "../utility/animation";
-import { SlideLeft } from "../utility/animation";
-import { SlideUp } from "../utility/animation";
+import { SlideRight } from "../../../utility/animation";
+import { SlideLeft } from "../../../utility/animation";
+import { SlideUp } from "../../../utility/animation";
 
 const Hero = () => {
   return (
